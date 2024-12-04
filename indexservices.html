@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS.NOVELTIE</title>
+    <style>
+        /* Reset some default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        /* Main container */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header styling */
+        header {
+            background-color: white;
+            color: rgb(231, 105, 9);
+            padding: 10px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.1em;
+        }
+
+        /* Navigation menu styling */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            text-align: center;
+            flex: 1;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        /* Main content styling */
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .content-box {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            width: 30%;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content-box img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+
+        /* Media Queries for Mobile and Tablet */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            nav a {
+                padding: 10px;
+                font-size: 14px;
+            }
+
+            .content-box {
+                width: 48%;
+            }
+        }
+
+        /* Media Queries for Small Mobile Devices */
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.6em;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                font-size: 12px;
+            }
+
+            .content-box {
+                width: 100%;
+            }
+        }
+
+        .font-family {
+            display: inline-block;
+            box-shadow: 0 0 10px black;
+        }
+
+        /* product sale them */
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .product-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 30%;
+            margin-bottom: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px black;
+        }
+
+        .product-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-item h4 {
+            margin-top: 10px;
+        }
+
+        .cta-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="ms novelties .png" width="600" height="150">
+        <p>Explore our latest collection of bags! Stylish, durable, and affordable options available.</p>
+    </header>
+
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="indexservices.html">Services</a>
+        <a href="indexcontect.html">Contact</a>
+        <a href="indexabout.html">About</a>
+    </nav>
+    <h1>MS.NOVELTIES</h1>
+    <H2>service</H2>
+
+
+    <section>
+        <h2>Our Bag Collection</h2>
+        <div class="product">
+
+            <!-- Product 1 -->
+            <div class="product-item">
+                <img src="ANIMAL PLANET.jpg" alt="Leather Handbag">
+                <h4>Leather Handbag</h4>
+                <p>Elegant and durable leather handbag perfect for travel use. Available in brown and black.</p>
+                <p><strong>Price: ₹400</strong></p>
+                <a href="indexcontect.html" class="cta-btn">Buy Now</a>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-item">
+                <img src="himlite.jpg" alt="Casual Backpack">
+                <h4>Casual Backpack</h4>
+                <p>ideal for travel bag. Available in grey and navy blue.</p>
+                <p><strong>Price: ₹500</strong></p>
+                <a href="indexcontect.html" class="cta-btn">Buy Now</a>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-item">
+                <img src="crocs.jpg" alt="Designer Tote">
+                <h4>Designer Tote</h4>
+                <p>Luxury bag with a stylish design. Available in multiple colors and sizes.</p>
+                <p><strong>Price: ₹600</strong></p>
+                <a href="indexcontect.html" class="cta-btn">Buy Now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h3>Special Offers</h3>
+        <p>Flat 20% off on all bags! Limited-time offer, grab your bag today!</p>
+    </section>
+
+    <section>
+        <h3>Why Choose Our Bags?</h3>
+        <ul>
+            <li>High-quality materials</li>
+            <li>Stylish and functional designs</li>
+            <li>Affordable prices with excellent value</li>
+            <li>Fast shipping and delivery</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Customer Reviews</h3>
+        <p>"Love my new backpack! Great quality and super comfy." - Priya K.</p>
+        <p>"The tote bag is gorgeous and perfect for my office. Highly recommend!" - Rahul P.</p>
+    </section>
+
+    <footer>
+        <p>Contact us:<a href="mailto:msnovelties9@gmail.com">msnovelties9@gmail.com</a>| Call: <a
+                href="https://wa.me/919312038940" target="_blank">+919312038940</a></p>
+        <p>&copy; 2024 BagStore</p>
+    </footer>
+
+
+
+</body>
+
+</html>
